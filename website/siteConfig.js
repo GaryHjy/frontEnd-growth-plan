@@ -29,6 +29,8 @@ const siteConfig = {
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
+  // github地址
+  githubUrl: 'https://github.com/GaryHjy',
   // Used for publishing and more
   projectName: 'frontEnd-growth-plan',
   organizationName: 'GaryHjy',
@@ -74,15 +76,17 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} jiayu.huang`,
+  copyright: `Copyright © ${new Date().getFullYear()} GaryHjy`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
+    // js主题用于代码块中的语法高亮显示。
     theme: 'default',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  // 在这里添加将放置在<script>标签中的自定义脚本。
+  // scripts: ['https://buttons.github.io/buttons.js'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -95,17 +99,20 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
+  // 在类别下展开/折叠链接和子类别
   // docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
+  // 显示文档上一个贡献者的名字。
   // enableUpdateBy: true,
 
   // Show documentation's last update time.
+  // 显示文档的最近更新时间。
   // enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  // repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/GaryHjy/frontEnd-growth-plan',
 };
 
 module.exports = siteConfig;
