@@ -40,10 +40,12 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
+    {doc: 'html/getting-started', label: 'HTML'},
+    {doc: 'css/css1', label: 'CSS'},
     {doc: 'doc4', label: 'API'},
     {page: 'help', label: '关于'},
     {blog: true, label: 'Blog'},
+    { href: 'https://github.com/GaryHjy', label: 'GitHub' },
   ],
 
   // If you have users set above, you add it here:

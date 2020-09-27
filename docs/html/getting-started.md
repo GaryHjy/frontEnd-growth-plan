@@ -1,7 +1,7 @@
 ---
-id: doc1
-title: 测试
-sidebar_label: Example Page
+id: getting-started
+title: 测试文档1
+sidebar_label: 测试文档1
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
