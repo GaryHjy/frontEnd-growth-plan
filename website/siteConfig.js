@@ -8,6 +8,8 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
+const githubUrl = "https://github.com/GaryHjy"
+
 // List of projects/orgs using your project for the users page.
 const users = [
   {
@@ -30,22 +32,19 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // github地址
-  githubUrl: 'https://github.com/GaryHjy',
+  githubUrl,
   // Used for publishing and more
   projectName: 'frontEnd-growth-plan',
   organizationName: 'GaryHjy',
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
+  // 顶部菜单链接
   headerLinks: [
     {doc: 'html/getting-started', label: 'HTML'},
     {doc: 'css/css1', label: 'CSS'},
     {doc: 'doc4', label: 'API'},
     {page: 'help', label: '关于'},
-    {blog: true, label: 'Blog'},
-    { href: 'https://github.com/GaryHjy', label: 'GitHub' },
+    { href: githubUrl, label: 'GitHub' },
   ],
 
   // If you have users set above, you add it here:
@@ -62,6 +61,9 @@ const siteConfig = {
     primaryColor: '#007fff',
     secondaryColor: '#2a175b',
   },
+
+  // 自定义文件夹docs名称
+  // customDocsPath: "test",
 
   /* Custom fonts for website */
   /*
@@ -114,7 +116,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/GaryHjy/frontEnd-growth-plan',
+  repoUrl: `${githubUrl}/frontEnd-growth-plan`,
 };
 
 module.exports = siteConfig;
